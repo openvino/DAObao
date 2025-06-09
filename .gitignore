@@ -1,0 +1,15 @@
+cat <<EOF > .gitignore
+openbao-data/
+*.zip
+*.log
+*.bak
+*.swp
+__pycache__/
+*.pyc
+*.env
+.env
+vault.hcl
+vault.json
+vault-init.log
+EOF
+
